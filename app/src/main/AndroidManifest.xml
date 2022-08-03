@@ -4,7 +4,11 @@
 
     package="com.example.qrscanner">
 
+    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
     <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -35,18 +39,12 @@
                 <action android:name="com.example.intents.GuideActivity"/>
                 <category android:name="android.intent.category.DEFAULT"/>
             </intent-filter>
-
         </activity>
         <activity android:name=".GuideActivity2"/>
         <activity android:name=".GuideActivity3"/>
-
         <activity android:name=".CompleteMeasureActivity"
             android:exported="true"/>
-
         <activity android:name=".StartMeasureActivity"/>
-
-
-
 
     </application>
 
