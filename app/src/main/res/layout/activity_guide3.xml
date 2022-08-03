@@ -55,6 +55,9 @@
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/circle"
         tools:ignore="MissingConstraints"
+        app:layout_constraintBottom_toTopOf="@+id/status_gonext3_btn"
+        android:layout_marginBottom="80dp"
+        android:layout_marginEnd="40dp"
         tools:layout_editor_absoluteY="696dp" />
 
     <ImageView
@@ -66,6 +69,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/blankcircle"
         tools:layout_editor_absoluteY="696dp"
+        app:layout_constraintBottom_toTopOf="@+id/status_gonext3_btn"
+        android:layout_marginBottom="80dp"
         tools:ignore="MissingConstraints" />
 
     <ImageView
@@ -75,8 +80,11 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.269"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/status_gonext3_btn"
+        android:layout_marginBottom="80dp"
         app:srcCompat="@drawable/blankcircle"
         tools:ignore="MissingConstraints"
+        android:layout_marginStart="40dp"
         tools:layout_editor_absoluteY="696dp" />
 
 
