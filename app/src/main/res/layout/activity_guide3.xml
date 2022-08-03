@@ -27,11 +27,9 @@
         android:gravity="center"
         android:text="안전한 주행을 위해 안내 화면에 맞춰서 음주 측정을 해주세요."
         android:textAlignment="center"
-        app:layout_constraintBottom_toBottomOf="@+id/status_gonext3_btn"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.487"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
         app:layout_constraintVertical_bias="0.723"
         tools:ignore="MissingConstraints" />
 
@@ -43,7 +41,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.368"
+        android:layout_marginTop="30dp"
         app:srcCompat="@drawable/windy" />
 
     <ImageView
