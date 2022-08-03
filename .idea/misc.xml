@@ -3,7 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/sm-pc/AndroidStudioProjects/QrScanner/app/src/main/res/layout/activity_main.xml" value="0.176" />
+        <entry key="..\:/Users/sm-pc/AndroidStudioProjects/QrScanner/app/src/main/res/layout/activity_guide.xml" value="0.16" />
+        <entry key="..\:/Users/sm-pc/AndroidStudioProjects/QrScanner/app/src/main/res/layout/activity_guide2.xml" value="0.176" />
+        <entry key="..\:/Users/sm-pc/AndroidStudioProjects/QrScanner/app/src/main/res/layout/activity_guide3.xml" value="0.264" />
+        <entry key="..\:/Users/sm-pc/AndroidStudioProjects/QrScanner/app/src/main/res/layout/activity_main.xml" value="0.136" />
+        <entry key="..\:/Users/sm-pc/AndroidStudioProjects/QrScanner/app/src/main/res/layout/activity_measure_complete.xml" value="0.1" />
+        <entry key="..\:/Users/sm-pc/AndroidStudioProjects/QrScanner/app/src/main/res/layout/activity_measure_now.xml" value="0.1" />
+        <entry key="..\:/Users/sm-pc/AndroidStudioProjects/QrScanner/app/src/main/res/layout/activity_measure_start.xml" value="0.1" />
       </map>
     </option>
   </component>

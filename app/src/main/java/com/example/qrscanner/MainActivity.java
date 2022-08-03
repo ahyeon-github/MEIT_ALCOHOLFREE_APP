@@ -5,7 +5,9 @@ import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 
 import com.journeyapps.barcodescanner.CaptureActivity;
@@ -28,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void scanCode() {
         ScanOptions options = new ScanOptions();
-        options.setPrompt("Volume up to flash on");
+        options.setPrompt("QR코드를 스캔 해주세요.");
         options.setBeepEnabled(true);
         options.setOrientationLocked(true);
         options.setCaptureActivity(CaptureAct.class);
@@ -43,11 +45,13 @@ public class MainActivity extends AppCompatActivity {
            AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
            builder.setTitle("Result");
            builder.setMessage(result.getContents());
-           builder.setPositiveButton("OK", new DialogInterface.OnClickListener() {
+           builder.setPositiveButton("NEXT", new DialogInterface.OnClickListener() {
                @Override
                public void onClick(DialogInterface dialogInterface, int i) {
                    dialogInterface.dismiss();
+                   startActivity (new Intent("com.example.intents.GuideActivity"));
                }
+
            }).show();
        }
     });
