@@ -17,7 +17,7 @@ public class GuideActivity3 extends AppCompatActivity {
         imageButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(),StartMeasureActivity.class);
+                Intent intent = new Intent(getApplicationContext(),BlutoothActivity.class);
                 startActivity(intent);
             }
         });
