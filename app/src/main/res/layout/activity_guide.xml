@@ -9,30 +9,27 @@
 
 
     <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="334dp"
-        android:layout_height="323dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:id="@+id/guide1_iv"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.335"
+        android:layout_marginTop="250dp"
         app:srcCompat="@drawable/bike" />
 
     <TextView
-        android:id="@+id/text1"
+        android:id="@+id/guide1_tv"
         android:layout_width="345dp"
         android:layout_height="75dp"
         android:layout_gravity="center"
         android:gravity="center"
         android:text="보행자 차량의 통행을 방해하는 장소에 주차를 금지합니다. 가능한 킥보드 주차 시설에 주차하세요."
         android:textAlignment="center"
-        app:layout_constraintBottom_toBottomOf="@+id/status_gonext1_btn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.663"
+        app:layout_constraintTop_toBottomOf="@id/guide1_iv"
+        android:layout_marginTop="20dp"
         tools:ignore="MissingConstraints" />
 
     <Button
